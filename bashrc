@@ -16,7 +16,7 @@ alias repo='cd ~/dsd/DSD'
 alias grep='grep --color'
 
 # Git autocompletion
-source ~/git-completion.bash
+# source ~/git-completion.bash
 
 export PATH="/data/ca/anaconda/bin:$PATH"
 export PS1="[\u@\h \w]"

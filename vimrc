@@ -1,9 +1,13 @@
+" Set 'nocompatible' to ward off unexpected things that your distro might
+" have made, as well as sanely reset options when re-sourcing .vimrc
+set nocompatible
+
 syntax on
 set background=dark
 " colorscheme solarized
 " Set line numbers and relative line numbers
-set number
-" set rnu
+" set number
+set rnu
 
 set smartindent
 
@@ -15,9 +19,6 @@ imap jk <Esc>
 imap kj <Esc>
 set backspace=indent,eol,start
 
-" Set 'nocompatible' to ward off unexpected things that your distro might
-" have made, as well as sanely reset options when re-sourcing .vimrc
-set nocompatible
 
 " Attempt to determine the type of a file based on its name and possibly its
 " contents. Use this to allow intelligent auto-indenting for each filetype,
