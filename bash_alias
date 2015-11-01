@@ -1,0 +1,9 @@
+# .bash_alias
+# User specific aliases and functions
+
+alias ls='ls --color'
+alias la='ls -a'
+alias ..='cd ..'
+alias ll='ls -l'
+alias c='clear'
+alias grep='grep --color'

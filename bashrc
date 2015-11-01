@@ -6,16 +6,13 @@ if [ -f /etc/bashrc ]; then
 fi
 
 # User specific aliases and functions
-
-alias ls='ls --color'
-alias la='ls -a'
-alias ..='cd ..'
-alias ll='ls -l'
-alias c='clear'
-alias grep='grep --color'
+source ~/.bash_alias
 
 # Git autocompletion
 # source ~/git-completion.bash
+# Add miniconda to path
+
+export PATH=/home/pekka/miniconda/bin:$PATH
 
 export PS1="[\u@\h \w]"
 export PROMPT_COMMAND='history -a;history -n'
