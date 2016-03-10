@@ -2,9 +2,10 @@
 " have made, as well as sanely reset options when re-sourcing .vimrc
 set nocompatible
 
-syntax on
+syntax enable
+set t_Co=256
 set background=dark
-" colorscheme solarized
+colorscheme solarized
 " Set line numbers and relative line numbers
 " set number
 set rnu
