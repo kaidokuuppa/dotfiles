@@ -7,3 +7,8 @@ alias ..='cd ..'
 alias ll='ls -l'
 alias c='clear'
 alias grep='grep --color'
+
+# alias vim to gvim if gvim exists
+if hash gvim 2>/dev/null; then
+    alias vim='gvim -u'
+fi
