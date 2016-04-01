@@ -71,3 +71,12 @@ set scrolloff=3
 
 " pathogen runtime path manipulation
 execute pathogen#infect()
+
+" enable full syntx highlighting fo python files
+let python_highlight_all = 1
+
+" remap movement between split windows
+nnoremap <C-j> <C-w><C-j>
+nnoremap <C-k> <C-w><C-k>
+nnoremap <C-l> <C-w><C-l>
+nnoremap <C-h> <C-w><C-h>
