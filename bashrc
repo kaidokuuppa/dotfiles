@@ -20,3 +20,6 @@ set -o vi
 shopt -s histappend
 # to unmap ctrl-s
 stty stop undef
+
+# source conda_auto_env
+source /home/$USER/bin/conda-auto-env/conda_auto_env.sh
